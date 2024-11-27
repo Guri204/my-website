@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+body {
+    height: 100vh;
+    background-color: #2e2e2e;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
