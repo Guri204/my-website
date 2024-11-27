@@ -1,13 +1,84 @@
 @charset "utf-8";
 
-body {
-    height: 100vh;
-    background-color: #2e2e2e;
+/* General Reset */
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: #4b2e83; /* Purple background color */
+}
+  
+  /* Header
+.header {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+} */
+  
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
 }
 
-.container {
-    text-align: center;
-    color: #fff;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+  
+.nav-list a:hover {
+    color: orange;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.4;
+    position: relative;
+}
+  
+.hero::before, .hero::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.hero::before {
+    top: 10%;
+    right: 10%;
+}
+  
+.hero::after {
+    bottom: 5%;
+    left: 15%;
+}
+  
