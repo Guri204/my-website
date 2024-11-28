@@ -11,14 +11,14 @@
 body {
     font-family: 'Arial', sans-serif;
     color: white;
-    background-color: #4b2e83; /* Purple background color */
+    background-color: #ffffff;
 }
-  
-  /* Header
-.header {
+
+/* .header {
     position: relative;
     height: 100vh; 
     overflow: hidden;
+    background-color: #de4b07;
 } */
   
 .container {
@@ -32,6 +32,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
+    color: #000;
 }
 
 .nav-list {
@@ -41,44 +42,38 @@ body {
 }
   
 .nav-list a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
-  
-.nav-list a:hover {
-    color: orange;
+
+main {
+    height: calc(100svh 80px 0);
 }
 
-.hero {
+.hero-banner-main {
+    height: 650px;
+    background: #fff url(../img/hero\ banner) center center / cover no-repeat;
     text-align: center;
-    margin-top: 50px;
-}
-  
-.hero h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.4;
-    position: relative;
-}
-  
-.hero::before, .hero::after {
-    content: '';
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: orange;
-    border-radius: 50%;
-}
+    /* color: #2e2e2e; */
 
-.hero::before {
-    top: 10%;
-    right: 10%;
-}
-  
-.hero::after {
-    bottom: 5%;
-    left: 15%;
-}
-  
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #fff;
+        padding: 190px 0 20px 0;
+    }
+
+    h2 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    p {
+        color: #fff;
+        margin-top: 10px;
+        font-size: 22px;
+    }
+} 
+
