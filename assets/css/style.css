@@ -13,13 +13,6 @@ body {
     color: white;
     background-color: #ffffff;
 }
-
-/* .header {
-    position: relative;
-    height: 100vh; 
-    overflow: hidden;
-    background-color: #de4b07;
-} */
   
 .container {
     display: flex;
@@ -51,12 +44,11 @@ body {
 main {
     height: calc(100svh 80px 0);
 }
-
+/*  Hero Banner */
 .hero-banner-main {
     height: 650px;
     background: #fff url(../img/hero\ banner) center center / cover no-repeat;
     text-align: center;
-    /* color: #2e2e2e; */
 
     h1 {
         font-size: 50px;
@@ -77,3 +69,43 @@ main {
     }
 } 
 
+/*---------------------*/
+/*      About me       */
+/*---------------------*/
+
+.text-container {
+    text-align: center;
+    padding-left: 20px;
+    margin-right: 120px;
+
+    h4 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 22px;
+        margin: auto;
+    }
+}
+
+.image-text-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px 20px;
+
+    h3 {
+        color: #000;
+        font-size: 50px;
+    }
+    p {
+        color: #000;
+    }
+}
+  
+.image-container img {
+    max-width: 60%;
+    height: auto;
+    padding: 80px 100px;
+}
